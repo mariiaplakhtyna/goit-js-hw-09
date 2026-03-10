@@ -1,0 +1,11 @@
+import"./style-FBH9JP1v.js";const f="modulepreload",g=function(r){return"/goit-js-hw-09/"+r},p={},w=function(a,i,S){let c=Promise.resolve();if(i&&i.length>0){let d=function(e){return Promise.all(e.map(s=>Promise.resolve(s).then(l=>({status:"fulfilled",value:l}),l=>({status:"rejected",reason:l}))))};document.getElementsByTagName("link");const n=document.querySelector("meta[property=csp-nonce]"),t=n?.nonce||n?.getAttribute("nonce");c=d(i.map(e=>{if(e=g(e),e in p)return;p[e]=!0;const s=e.endsWith(".css"),l=s?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${e}"]${l}`))return;const o=document.createElement("link");if(o.rel=s?"stylesheet":f,s||(o.as="script"),o.crossOrigin="",o.href=e,t&&o.setAttribute("nonce",t),document.head.appendChild(o),s)return new Promise((m,h)=>{o.addEventListener("load",m),o.addEventListener("error",()=>h(new Error(`Unable to preload CSS for ${e}`)))})}))}function u(n){const t=new Event("vite:preloadError",{cancelable:!0});if(t.payload=n,window.dispatchEvent(t),!t.defaultPrevented)throw n}return c.then(n=>{for(const t of n||[])t.status==="rejected"&&u(t.reason);return a().catch(u)})};window.global=window;const y=[{preview:"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=300",original:"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=1200&q=80",description:"Mountain"},{preview:"https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=300",original:"https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1200&q=80",description:"Lake"},{preview:"https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=300",original:"https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80",description:"River"}],v=document.querySelector(".gallery"),E=y.map(({preview:r,original:a,description:i})=>`
+      <li class="gallery-item">
+        <a class="gallery-link" href="${a}">
+          <img
+            class="gallery-image"
+            src="${r}"
+            alt="${i}"
+          />
+        </a>
+      </li>
+    `).join("");v.innerHTML=E;const{default:b}=await w(async()=>{const{default:r}=await import("./simple-lightbox.modules-B-NpemqJ.js").then(a=>a.s);return{default:r}},[]);new b(".gallery a",{captionsData:"alt",captionDelay:250});
