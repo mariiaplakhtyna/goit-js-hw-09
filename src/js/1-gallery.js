@@ -21,14 +21,7 @@ const images = [
       'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=300',
     original:
       'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80',
-    description: 'Nature',
-  },
-  {
-    preview:
-      'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=300',
-    original:
-      'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80',
-    description: 'Forest',
+    description: 'River',
   },
 ];
 
@@ -36,13 +29,13 @@ const gallery = document.querySelector('.gallery');
 
 const galleryMarkup = images
   .map(
-    image => `
+    ({ preview, original, description }) => `
       <li class="gallery-item">
-        <a class="gallery-link" href="${image.original}">
+        <a class="gallery-link" href="${original}">
           <img
             class="gallery-image"
-            src="${image.preview}"
-            alt="${image.description}"
+            src="${preview}"
+            alt="${description}"
           />
         </a>
       </li>
