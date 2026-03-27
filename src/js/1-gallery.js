@@ -1,6 +1,6 @@
+import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-window.global = window;
 
 const images = [
   {
@@ -45,8 +45,6 @@ const galleryMarkup = images
   .join('');
 
 gallery.innerHTML = galleryMarkup;
-
-const { default: SimpleLightbox } = await import('simplelightbox');
 
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
