@@ -79,20 +79,26 @@ const gallery = document.querySelector('.gallery');
 const markup = images
   .map(
     ({ preview, original, description }) => `
-    <li class="gallery-item">
-      <a class="gallery-link" href="${original}">
-        <img
-          class="gallery-image"
-          src="${preview}"
-          alt="${description}"
-        />
-      </a>
-    </li>
-  `
+      <li class="gallery-item">
+        <a class="gallery-link" href="${original}">
+          <img
+            class="gallery-image"
+            src="${preview}"
+            alt="${description}"
+          />
+        </a>
+      </li>
+    `
   )
   .join('');
 
 gallery.innerHTML = markup;
+
+document.querySelectorAll('.gallery-image').forEach(img => {
+  img.addEventListener('error', () => {
+    img.src = img.closest('.gallery-link').href;
+  });
+});
 
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
