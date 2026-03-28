@@ -4,73 +4,45 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 const images = [
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/orchids-4202820_480.jpg',
+      'https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=400',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/orchids-4202820_1280.jpg',
+      'https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=1600',
     description: 'Hokkaido Flower',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_480.jpg',
+      'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg',
+      'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600',
     description: 'Container Haulage Freight',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/23/57/coffee-4204217_480.jpg',
+      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/23/57/coffee-4204217_1280.jpg',
-    description: 'Aerial View of Seashore',
+      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600',
+    description: 'Aerial Beach View',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/16/19/17/plant-4278666_480.jpg',
+      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400',
     original:
-      'https://cdn.pixabay.com/photo/2019/06/16/19/17/plant-4278666_1280.jpg',
-    description: 'Green Leafed Plant',
+      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600',
+    description: 'Flower Blooms',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/04/03/13/macro-4250571_480.jpg',
+      'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=400',
     original:
-      'https://cdn.pixabay.com/photo/2019/06/04/03/13/macro-4250571_1280.jpg',
-    description: 'Ladybug',
+      'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600',
+    description: 'Alpine Mountains',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/14/14/11/raspberries-4273404_480.jpg',
+      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=400',
     original:
-      'https://cdn.pixabay.com/photo/2019/06/14/14/11/raspberries-4273404_1280.jpg',
-    description: 'Raspberries',
-  },
-  {
-    preview:
-      'https://cdn.pixabay.com/photo/2019/06/17/19/24/strawberry-4280604_480.jpg',
-    original:
-      'https://cdn.pixabay.com/photo/2019/06/17/19/24/strawberry-4280604_1280.jpg',
-    description: 'Strawberry',
-  },
-  {
-    preview:
-      'https://cdn.pixabay.com/photo/2019/06/09/06/55/peonies-4263107_480.jpg',
-    original:
-      'https://cdn.pixabay.com/photo/2019/06/09/06/55/peonies-4263107_1280.jpg',
-    description: 'Peonies',
-  },
-  {
-    preview:
-      'https://cdn.pixabay.com/photo/2019/06/08/11/18/green-4260795_480.jpg',
-    original:
-      'https://cdn.pixabay.com/photo/2019/06/08/11/18/green-4260795_1280.jpg',
-    description: 'Green Landscape',
-  },
-  {
-    preview:
-      'https://cdn.pixabay.com/photo/2019/06/09/10/10/animal-4264059_480.jpg',
-    original:
-      'https://cdn.pixabay.com/photo/2019/06/09/10/10/animal-4264059_1280.jpg',
-    description: 'Animal',
+      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1600',
+    description: 'Lighthouse Coast Sea',
   },
 ];
 
