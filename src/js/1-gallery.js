@@ -21,71 +21,78 @@ const images = [
       'https://cdn.pixabay.com/photo/2019/05/14/23/57/coffee-4204217_340.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/05/14/23/57/coffee-4204217_1280.jpg',
-    description: 'Aerial Shot of Green Grass Field',
+    description: 'Aerial View of Seashore',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/15/00/26/hut-4204459_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/16/19/17/plant-4278666_340.jpg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/15/00/26/hut-4204459_1280.jpg',
-    description: 'Wooden Hut in Green Meadow',
-  },
-  {
-    preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/23/17/fruits-4203814_340.jpg',
-    original:
-      'https://cdn.pixabay.com/photo/2019/05/14/23/17/fruits-4203814_1280.jpg',
-    description: 'Assorted Fruits on White Ceramic Plate',
-  },
-  {
-    preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/23/17/fruits-4203815_340.jpg',
-    original:
-      'https://cdn.pixabay.com/photo/2019/05/14/23/17/fruits-4203815_1280.jpg',
-    description: 'Frozen Treats on White Ceramic Bowl',
-  },
-  {
-    preview:
-      'https://cdn.pixabay.com/photo/2019/05/15/00/26/green-4204458_340.jpg',
-    original:
-      'https://cdn.pixabay.com/photo/2019/05/15/00/26/green-4204458_1280.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/16/19/17/plant-4278666_1280.jpg',
     description: 'Green Leafed Plant',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/15/00/27/lighthouse-4204460_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/04/03/13/macro-4250571_340.jpg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/15/00/27/lighthouse-4204460_1280.jpg',
-    description: 'Lighthouse During Golden Hour',
+      'https://cdn.pixabay.com/photo/2019/06/04/03/13/macro-4250571_1280.jpg',
+    description: 'Ladybug',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/15/00/28/pier-4204461_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/14/14/11/raspberries-4273404_340.jpg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/15/00/28/pier-4204461_1280.jpg',
-    description: 'Aerial View of Seashore',
+      'https://cdn.pixabay.com/photo/2019/06/14/14/11/raspberries-4273404_1280.jpg',
+    description: 'Raspberries',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/06/17/19/24/strawberry-4280604_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/06/17/19/24/strawberry-4280604_1280.jpg',
+    description: 'Strawberry',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/06/09/06/55/peonies-4263107_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/06/09/06/55/peonies-4263107_1280.jpg',
+    description: 'Peonies',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/06/08/11/18/green-4260795_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/06/08/11/18/green-4260795_1280.jpg',
+    description: 'Green Landscape',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/06/09/10/10/animal-4264059_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/06/09/10/10/animal-4264059_1280.jpg',
+    description: 'Animal',
   },
 ];
 
 const gallery = document.querySelector('.gallery');
 
-const galleryMarkup = images
+const markup = images
   .map(
     ({ preview, original, description }) => `
-      <li class="gallery-item">
-        <a class="gallery-link" href="${original}">
-          <img
-            class="gallery-image"
-            src="${preview}"
-            alt="${description}"
-          />
-        </a>
-      </li>
-    `
+    <li class="gallery-item">
+      <a class="gallery-link" href="${original}">
+        <img
+          class="gallery-image"
+          src="${preview}"
+          alt="${description}"
+        />
+      </a>
+    </li>
+  `
   )
   .join('');
 
-gallery.innerHTML = galleryMarkup;
+gallery.innerHTML = markup;
 
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
