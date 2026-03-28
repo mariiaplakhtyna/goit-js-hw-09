@@ -4,9 +4,9 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 const images = [
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_480.jpg',
+      'https://cdn.pixabay.com/photo/2019/05/14/16/43/orchids-4202820_480.jpg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg',
+      'https://cdn.pixabay.com/photo/2019/05/14/16/43/orchids-4202820_1280.jpg',
     description: 'Hokkaido Flower',
   },
   {
@@ -93,12 +93,6 @@ const markup = images
   .join('');
 
 gallery.innerHTML = markup;
-
-document.querySelectorAll('.gallery-image').forEach(img => {
-  img.addEventListener('error', () => {
-    img.src = img.closest('.gallery-link').href;
-  });
-});
 
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
