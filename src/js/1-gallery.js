@@ -11,63 +11,63 @@ const images = [
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_480.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg',
     description: 'Container Haulage Freight',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/23/57/coffee-4204217_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/05/14/23/57/coffee-4204217_480.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/05/14/23/57/coffee-4204217_1280.jpg',
     description: 'Aerial View of Seashore',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/16/19/17/plant-4278666_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/16/19/17/plant-4278666_480.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/06/16/19/17/plant-4278666_1280.jpg',
     description: 'Green Leafed Plant',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/04/03/13/macro-4250571_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/04/03/13/macro-4250571_480.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/06/04/03/13/macro-4250571_1280.jpg',
     description: 'Ladybug',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/14/14/11/raspberries-4273404_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/14/14/11/raspberries-4273404_480.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/06/14/14/11/raspberries-4273404_1280.jpg',
     description: 'Raspberries',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/17/19/24/strawberry-4280604_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/17/19/24/strawberry-4280604_480.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/06/17/19/24/strawberry-4280604_1280.jpg',
     description: 'Strawberry',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/09/06/55/peonies-4263107_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/09/06/55/peonies-4263107_480.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/06/09/06/55/peonies-4263107_1280.jpg',
     description: 'Peonies',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/08/11/18/green-4260795_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/08/11/18/green-4260795_480.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/06/08/11/18/green-4260795_1280.jpg',
     description: 'Green Landscape',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/06/09/10/10/animal-4264059_340.jpg',
+      'https://cdn.pixabay.com/photo/2019/06/09/10/10/animal-4264059_480.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/06/09/10/10/animal-4264059_1280.jpg',
     description: 'Animal',
