@@ -1,28 +1,69 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-
 const images = [
   {
     preview:
-      'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=300',
+      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_480.jpg',
     original:
-      'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=1200&q=80',
-    description: 'Mountain',
+      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg',
+    description: 'Hokkaido Flower',
   },
   {
     preview:
-      'https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=300',
+      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_340.jpg',
     original:
-      'https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1200&q=80',
-    description: 'Lake',
+      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg',
+    description: 'Container Haulage Freight',
   },
   {
     preview:
-      'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=300',
+      'https://cdn.pixabay.com/photo/2019/05/14/23/57/coffee-4204217_340.jpg',
     original:
-      'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80',
-    description: 'River',
+      'https://cdn.pixabay.com/photo/2019/05/14/23/57/coffee-4204217_1280.jpg',
+    description: 'Aerial Shot of Green Grass Field',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/05/15/00/26/hut-4204459_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/05/15/00/26/hut-4204459_1280.jpg',
+    description: 'Wooden Hut in Green Meadow',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/05/14/23/17/fruits-4203814_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/05/14/23/17/fruits-4203814_1280.jpg',
+    description: 'Assorted Fruits on White Ceramic Plate',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/05/14/23/17/fruits-4203815_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/05/14/23/17/fruits-4203815_1280.jpg',
+    description: 'Frozen Treats on White Ceramic Bowl',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/05/15/00/26/green-4204458_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/05/15/00/26/green-4204458_1280.jpg',
+    description: 'Green Leafed Plant',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/05/15/00/27/lighthouse-4204460_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/05/15/00/27/lighthouse-4204460_1280.jpg',
+    description: 'Lighthouse During Golden Hour',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2019/05/15/00/28/pier-4204461_340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2019/05/15/00/28/pier-4204461_1280.jpg',
+    description: 'Aerial View of Seashore',
   },
 ];
 
